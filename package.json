@@ -1,0 +1,26 @@
+{
+  "name": "nano-static-server",
+  "version": "1.0.0",
+  "description": "Simple static Node.JS server",
+  "main": "./main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smelukov/nano-static-server.git"
+  },
+  "author": "Sergey Melyukov <s.melukov@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "static server",
+    "simple http server",
+    "simple static server",
+    "simple nodejs server"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "nano-server": "./bin/server"
+  }
+}
